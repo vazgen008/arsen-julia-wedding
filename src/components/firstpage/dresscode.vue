@@ -137,6 +137,8 @@
         box-sizing: border-box;
         display: flex;
         align-items: center;
+        border-radius: 8px;
+        padding: 20px;
     }
     .dresscode__examples {
         display: grid;
