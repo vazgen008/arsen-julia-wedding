@@ -85,6 +85,12 @@ onUnmounted(() => {
 </script>
 
 <style scoped lang="scss">
+@font-face {
+  font-family: 'myfont';
+  src: url('../fonts/myfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .wedding__main{
     color: white;
 &--entry{
@@ -96,6 +102,8 @@ onUnmounted(() => {
     & p{
         font-size: 27px;
         width: 700px;
+    font-family: 'myfont';
+
     }
 }
 &--date{

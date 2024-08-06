@@ -38,7 +38,7 @@
             <img src="./img/dresscode2.jpg"  alt="">
         </div>
         <div>
-            <img src="./img/dresscode6.jpg" alt="">
+            <img src="./img/dresscode11.jpg" alt="">
         </div>
         <div>
             <img src="./img/dresscode7.jpg" alt="">
@@ -50,10 +50,10 @@
             <img src="./img/dresscode10.jpg" alt="">
         </div>
         <div>
-            <img src="./img/dresscode9.jpg" alt="">
+            <img src="./img/dresscode12.jpg" alt="">
         </div>
         <div>
-            <img src="./img/dresscode1.jpg" alt="">
+            <img src="./img/dresscode13.jpg" alt="">
         </div>
     </div>
   </div>

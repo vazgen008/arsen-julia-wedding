@@ -104,6 +104,7 @@ import Footer from './Footer.vue'
         }
         & .name--artur{
             // left: 601px;
+            margin-right: 50px;
             top: 110px;
             width: 120px;
             zoom: 1.122;
@@ -113,6 +114,8 @@ import Footer from './Footer.vue'
         }
          & .name--liana{
             // left: 620px;
+            margin-left: 50px;
+
             top: 160px;
             width: 120px;
             zoom: 1.122;

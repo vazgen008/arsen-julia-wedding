@@ -20,5 +20,6 @@ div{
     flex-direction: column;
     align-items: center;
     color: white;
+    text-align: center;
 }
 </style>
