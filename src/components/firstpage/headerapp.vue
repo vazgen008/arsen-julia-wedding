@@ -9,6 +9,7 @@
             </div>
             <div class="invitation__info--names" v-if="$i18n.locale === 'am'">
                 <img src="https://static.tildacdn.one/tild3132-3965-4765-b164-643561323563/01.svg" class="circle" alt="">
+                <img src="./img/rings.png" class="wedding--rings" alt="">
                 <img src="./img/arsen.png" class="name--artur" alt="">
                 <img src="./img/julia.png" class="name--liana" alt="">
             </div>
@@ -43,6 +44,13 @@ import Footer from './Footer.vue'
 <style scoped lang="scss"> 
 *{
     margin: 0 0;
+}
+.wedding--rings{
+    position: absolute;
+    width: 100px;
+    top: 17px;
+            animation: nameanimation 4s linear forwards;
+
 }
 .wedding__invitation{
     width: 100%;

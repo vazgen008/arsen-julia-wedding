@@ -1,4 +1,5 @@
 <template>
+
   <div class="dresscode">
     <div>
         <!-- <img src="./img/dresscodeAM.png" alt="" v-if="this.$i18n.locale === 'am'"> -->
@@ -141,6 +142,7 @@
         align-items: center;
         border-radius: 8px;
         padding: 20px;
+        line-height: 1.5;
     }
     .dresscode__examples {
         display: grid;
