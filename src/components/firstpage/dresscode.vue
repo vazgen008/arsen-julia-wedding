@@ -83,6 +83,7 @@
         font-size: 20px;
         box-sizing: border-box;
     }
+    
     &__colors{
         & img{
             width: 305px;
@@ -132,9 +133,10 @@
         width: 300px;
         height: 180px;
         background: rgba(255, 255, 255, 0.3);
-        padding: 20px;
         font-size: 18px;
         box-sizing: border-box;
+        display: flex;
+        align-items: center;
     }
     .dresscode__examples {
         display: grid;
