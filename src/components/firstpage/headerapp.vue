@@ -2,12 +2,12 @@
     <div class="wedding__invitation">
         <div class="wedding__invitation--info invitation__info">
             <div class="languageAction">
-            <button class="language" @click="$i18n.locale = this.$i18n.locale === 'am' ? 'ru' : 'am'">{{$i18n.locale}} | {{$i18n.locale == 'am' ? 'ru':'am'}}</button> 
+            <button class="language" @click="$i18n.locale = $i18n.locale === 'am' ? 'ru' : 'am'">{{$i18n.locale}} | {{$i18n.locale == 'am' ? 'ru':'am'}}</button> 
             </div>
             <div class="invitation__info--header">
                 <h1>{{ $t('title') }}</h1>
             </div>
-            <div class="invitation__info--names" v-if="this.$i18n.locale === 'am'">
+            <div class="invitation__info--names" v-if="$i18n.locale === 'am'">
                 <img src="https://static.tildacdn.one/tild3132-3965-4765-b164-643561323563/01.svg" class="circle" alt="">
                 <img src="./img/arsen.png" class="name--artur" alt="">
                 <img src="./img/julia.png" class="name--liana" alt="">
