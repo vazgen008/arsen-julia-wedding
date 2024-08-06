@@ -82,6 +82,8 @@
         padding: 30px;
         font-size: 20px;
         box-sizing: border-box;
+        border-radius: 8px;
+
     }
     
     &__colors{

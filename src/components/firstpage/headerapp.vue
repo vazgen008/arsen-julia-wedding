@@ -226,6 +226,7 @@ import Footer from './Footer.vue'
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
 
     }
   .invitation__info {
