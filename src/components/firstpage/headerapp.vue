@@ -15,7 +15,7 @@
             <div class="invitation__info--names" v-else>
                 <img src="https://static.tildacdn.one/tild3132-3965-4765-b164-643561323563/01.svg" class="circle" alt="">
                 <img src="./img/arsenru.png" class="name--artur" alt="">
-                <img src="./img/juliaru.png" class="name--liana" alt="">
+                <img src="./img/julia2ru.png" class="name--liana" alt="">
             </div>
             <div class="invitation__info--countdown">
                 <h1>{{$t('countdown')}}</h1>
@@ -51,7 +51,7 @@ import Footer from './Footer.vue'
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(./img/background.jpg);
+    background-image: url(./img/background.jpg);    
     background-attachment: fixed;
     &--info{
         height: 700px;
@@ -216,6 +216,10 @@ import Footer from './Footer.vue'
 
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {
+    .wedding__invitation{
+    background-image: url(./img/bgresp.jpg);    
+
+    }
   .invitation__info {
     &--header{
        
