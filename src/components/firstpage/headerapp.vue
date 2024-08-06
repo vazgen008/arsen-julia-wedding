@@ -217,7 +217,16 @@ import Footer from './Footer.vue'
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {
     .wedding__invitation{
-    background-image: url(https://optim.tildacdn.one/tild3765-6535-4637-b037-396230633334/-/resize/800x1800/-/format/webp/noroot.png);    
+    background-image: url(https://optim.tildacdn.one/tild3765-6535-4637-b037-396230633334/-/resize/800x1800/-/format/webp/noroot.png);  
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-size: cover; /* or other appropriate value */
+    background-repeat: no-repeat;
+    background-position: center center; /* or other appropriate values */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
 
     }
   .invitation__info {
