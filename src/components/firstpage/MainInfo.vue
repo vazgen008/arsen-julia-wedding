@@ -224,9 +224,9 @@ onUnmounted(() => {
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 600px) {
     
-    .wedding__main--date img[data-v-d23be0dc] {
+    .wedding__main--date img {
         width: 250px;
         height: 90px;
     }
