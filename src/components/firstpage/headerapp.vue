@@ -216,20 +216,10 @@ import Footer from './Footer.vue'
 
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {
-    .wedding__invitation{
-        background-image: none;
-        background-image: url(./img/bgresp.jpg);
-    background-repeat: no-repeat;
-        background-size: cover;
-        background-size: cover; /* or other appropriate value */
-    background-repeat: no-repeat;
-    background-position: center center; /* or other appropriate values */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  
+    .wedding__invitation {
+    background: url(./img/bgresp.jpg) no-repeat center center center / cover;
+  }
 
-    }
   .invitation__info {
     &--header{
        
